@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzkaYounus_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/56a76c22e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="logi.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software developer</p>
+            <h1>Hi, I'm <span>Azka Younus</span></h1>
+        </div>
+    </div>
+    <!--------------------------------------about------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.JPG">
+                    <a href="AzkaYounus-SoftwareDeveloper.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A good example of a paragraph contains a topic sentence, details and a conclusion. 'There are
+                        many different kinds of animals that live in China. Tigers and leopards are animals that live in
+                        China's forests in the north. In the jungles, monkeys swing in the trees and elephants walk
+                        through the brush.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software development</span><br>designing web/app interface</li>
+                            <li><span>Data Analyst</span><br>designing web/app interface</li>
+                            <li><span>Web Development</span><br>designing web/app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>data analyst intern</li>
+                            <li><span>2024 May</span><br>internml</li>
+                            <li><span>2023</span><br>sines</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>NUST</li>
+                            <li><span>2018-2020</span><br>Kinnaird</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------Services-------------------------------------->
+
+    <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Software development</h2>
+                <p>What is a paragraph? Paragraphs are the building blocks of papers. Many students define paragraphs in
+                    terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long,
+                    etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a
+                    paragraph.</p>
+                <a href="#"> Learn more</a>
+
+            </div>
+            <div>
+                <h2>Data Analyst</h2>
+                <p>What is a paragraph? Paragraphs are the building blocks of papers. Many students define paragraphs in
+                    terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long,
+                    etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a
+                    paragraph.</p>
+                <a href="#"> Learn more</a>
+
+            </div>
+            <div>
+                <h2>Web Development</h2>
+                <p>What is a paragraph? Paragraphs are the building blocks of papers. Many students define paragraphs in
+                    terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long,
+                    etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a
+                    paragraph.</p>
+                <a href="#"> Learn more</a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------------portfolio------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pic1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>What is a paragraph? Paragraphs are the building blocks of papers. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic2.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>What is a paragraph? Paragraphs are the building blocks of papers.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic3.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>What is a paragraph? Paragraphs are the building blocks of papers. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------------------contact----------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> azka.younus72@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03341370357</p>
+                    <div class="social-icon">
+                        <a href="https://linkedin.com/in/azkayounus"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AzkaYounus"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="AzkaYounus-SoftwareDeveloper.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------script------------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
